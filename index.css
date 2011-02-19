@@ -1,0 +1,23 @@
+body { margin: 0; background: url("includes/header-bg.png") repeat scroll 0 0 #212121; font-family: Century Gothic,Trebuchet MS,helvetica; overflow: hidden; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a { text-decoration: none; color: #006699; }
+.invisible { opacity: 0; }
+.hidden { display: none; }
+.title { color: #ffffff; position: fixed; z-index: 1; text-align: center; width: 100%; top: 50px; font-size: 200%; }
+.content { color: #FFFFFF; margin: 20px; }
+.content h1 { margin-bottom: 10px; margin-top: 10px; text-align: center; }
+.content h3 { margin-bottom: 10px; margin-top: 10px; text-align: center; }
+.content div.img { display: inline-block; margin-right: 16px; }
+.content div.img img { height: 250px; }
+.content div.description { display: inline-block; width: 50%; }
+.content div.list { float: left; min-height: 180px; width: 50%; }
+.content div.list.last { width: 100%; clear: both; }
+.content ul { }
+.content ul li { }
+.content .link { text-align: center; width: 100%; }
+.if_container { height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
+.content .link span { color: #444444; display: block; font-size: 80%; text-align: center; width: 100%; }
+.imageflow .caption { position: absolute; color: #fff; z-index: 0; font-size: 200%; font-weight: normal; }
+.imageflow span { color: #AAAAAA; left: 25px; position: fixed; bottom: 25px; z-index: 5; cursor: pointer; font-size: 150%; }
+.footer { bottom: 10px; color: #555555; font-size: 80%; position: fixed; right: 10px; }
+.slideshow { display: none; }
