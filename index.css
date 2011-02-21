@@ -21,3 +21,4 @@ a { text-decoration: none; color: #006699; }
 .imageflow span { color: #AAAAAA; left: 25px; position: fixed; bottom: 25px; z-index: 5; cursor: pointer; font-size: 150%; }
 .footer { bottom: 10px; color: #555555; font-size: 80%; position: fixed; right: 10px; }
 .slideshow { display: none; }
+#forkme img { position: absolute; top: 0; right: 0; border: 0; z-index: 1005;}
